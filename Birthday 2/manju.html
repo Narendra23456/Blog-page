@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MANJU BIRTHDAY</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LOGIN PAGE -->
+<div class="login-box" id="loginBox">
+    <h2>Login</h2>
+
+    <input type="text" id="name" placeholder="Name">
+    <input type="text" id="phone" placeholder="Phone Number">
+    <input type="password" id="password" placeholder="Password">
+
+    <p id="error"></p>
+
+    <button id="loginBtn" onclick="login()">Login</button>
+</div>
+
+<!-- BIRTHDAY PAGE -->
+<div class="birthday" id="birthdayPage">
+    <h1 class="title">🎂 Happy Birthday Manjusha 🎂</h1>
+    <p class="wish">May your life be filled with love, Happiness, and Success 💖</p>
+
+    <!-- PAGE 1 -->
+    <div class="page active" id="page1">
+        <img src="images/img1.jpg">
+        <p>You are a blessing 🌸
+            <br>
+            "O murisi pomaka adho bogundhi ani petta ley."
+        </p>
+        <button onclick="nextPage(1)">Next ➡️</button>
+    </div>
+
+    <!-- PAGE 2 -->
+    <div class="page" id="page2">
+        <img src="images/img2.jpg">
+        <p>Your smile spreads joy ✨
+            <br>
+            "Side by side or miles apart, we’ll always be connected by heart."
+        </p>
+        <button onclick="nextPage(2)">Next ➡️</button>
+    </div>
+
+    <!-- PAGE 3 -->
+    <div class="page" id="page3">
+        <img src="images/img3.jpg">
+        <p>Keep shining always 💫
+            <br>
+            "A little bit of childhood that can never be lost."
+        </p>
+        <button onclick="nextPage(3)">Next ➡️</button>
+    </div>
+
+    <!-- PAGE 4 -->
+    <div class="page" id="page4">
+        <img src="images/img4.jpg">
+        <p>You deserve all happiness 🎁
+            <br>
+            "Sun doesn't need any other sorce to Shine,Like you."
+        </p>
+        <button onclick="nextPage(4)">Next ➡️</button>
+    </div>
+
+    <!-- PAGE 5 -->
+    <div class="page" id="page5">
+        <img src="images/img5.jpg">
+        <p>Always stay blessed 💖
+            <br>
+            "Finally for one more time,it's your 28th Birthday
+            Cheers for the day Akka."<br>
+            "I HOPE YOU LIKE THIS 💖"
+        </p>
+        <button onclick="alert('🎉 End of Wishes 🎉')">Finish 🎉</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
